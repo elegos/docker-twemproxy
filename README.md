@@ -4,6 +4,7 @@ Twmemproxy (nutcracker) docker image
 ## Docker image information
 
 Exposed port: 21121
+
 Volume: /usr/local/etc/nutcracker/nutcracker.yml
 
 ## Configuration
