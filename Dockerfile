@@ -11,6 +11,7 @@ RUN make install
 
 # Clean-up the build packages
 RUN apk del .build
+RUN rm -rf /src/*
 
 WORKDIR /app
 VOLUME /usr/local/etc/nutcracker/nutcracker.yml
